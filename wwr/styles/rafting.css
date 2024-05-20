@@ -1,3 +1,5 @@
+/* rafting.css */
+
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
@@ -188,6 +190,50 @@ h1, h2, p {
   padding: 20px;
 }
 
+
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.contact-form h2 {
+  color: #0e4b7f;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #0e4b7f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #09456b;
+}
 .home{
   display: flex;
 }
@@ -201,4 +247,100 @@ button{
 /* Main Content styles */
 main {
     padding: 20px;
+}
+
+/* Hero section styles */
+.her {
+    position: relative;
+}
+
+.her img {
+    width: 100%;
+    height: auto;
+}
+
+.her .hero-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.her h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family:'Pacifico', cursive;
+}
+
+.her p {
+    font-size: 1.2em;
+    font-family:'Pacifico', cursive;
+}
+
+/* Newsletter section styles */
+.newsletter {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.newsletter h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newsletter label {
+    margin-right: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #09456b;
+}
+#email{
+  padding-left: 10px;
+}
+
+#center{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+p a{
+  color: white;
+  text-decoration: none;
+}
+p a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* Main Content styles */
+main {
+  padding: 20px;
+}
+#img{
+  width: 20%;
+  height: 30%;
 }
