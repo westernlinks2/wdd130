@@ -1,0 +1,195 @@
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+/* Define CSS variables based on your color scheme */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+}
+
+/* Apply styles to headings and paragraph elements */
+h1, h2, p {
+  font-family: 'ital', sans-serif;
+  color: var(--text-color);
+}
+
+/* Style social media links */
+nav.sociallinks a {
+  text-decoration: none;
+}
+.sociallinks img{
+    width: 50%;
+}
+/* Style hero container */
+.hero {
+  position: relative;
+}
+.hero h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: var(--primary-color);
+}
+
+.hero article {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  text-align: center;
+}
+
+.hero article img {
+  float: right;
+  max-width: 200px; 
+  margin: 0 0 20px 20px;
+}
+
+/* Style footer */
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8em;
+  color: rgb(37, 26, 26);
+}
+
+/* Header styles using CSS Grid */
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a:hover{
+  color: var(--text-color);
+}
+
+header img {
+  max-width: 100px; /* Adjust as needed */
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Main Content styles */
+main {
+  padding: 20px;
+}
+.history-section{
+    margin-top: 30px;
+  }
+  .history-section h2{
+    font-family:'Pacifico', cursive;
+    font-size: xx-large;
+    font-weight: 900;
+  }
+  
+  .history-two{
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  .history{
+    text-align: justify;
+  }  
+  /* Adventures Section styles */
+  
+  .adventure-section h2{
+    font-family: 'Berkshire Swash', serif;
+    font-size: xx-large;
+  }
+  .adventure{
+    color: var(--primary-color);
+  }
+  h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  figure {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: var(--text-color);
+  }
+  
+  /* Footer styles */
+  footer {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: right;
+  }
+  
+  .sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+  }
+  
+  .sociallinks img {
+    max-width: 50px; /* Adjust as needed */
+
+  .home{
+    font-family: 'Rubik Burned', system-ui;
+  }
+  /* rafting.css */
+  
+  /* Apply styles to headings and paragraph elements */
+  h1, h2, p {
+    font-family: 'ital', sans-serif;
+    color: var(--text-color);
+  }
+  
+  /* Main Content styles */
+  .main-content {
+    padding: 20px;
+  }
+  .home{
+    display: flex;
+  }
+  
