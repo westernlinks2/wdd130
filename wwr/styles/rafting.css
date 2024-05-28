@@ -422,3 +422,86 @@ main {
 .call-to-action p{
     font-family:'Pacifico', cursive;
 }
+/* Grid layout styles */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+/* Hero section styles */
+.her {
+  position: relative;
+}
+
+.her img {
+  width: 100%;
+  height: auto;
+}
+
+.her .hero-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.her h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family:'Pacifico', cursive;
+}
+
+.her p {
+  font-size: 1.2em;
+  font-family:'Pacifico', cursive;
+}
+
+/* Newsletter section styles */
+.newsletter {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.newsletter h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.newsletter label {
+  margin-right: 10px;
+}
+
+.newsletter input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #09456b;
+}
+#email{
+padding-left: 10px;
+}
